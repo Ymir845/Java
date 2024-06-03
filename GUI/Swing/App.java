@@ -16,10 +16,17 @@ public class App extends JFrame{
         labl.setBounds(220,350,20,20);
         f.add(labl);
 
+        JTextField j1;
+        j1 = new JTextField("This is a TextField"); // NOTE: Users can type in TextFields
+        j1.setBounds(100,100,50,50);
+        f.add(j1);
+
         f.setSize(500,500); // Dimensions of Frame
         f.setVisible(true);
         f.setLayout(null);
         f.setTitle("SwingTest");
+
+
 
     }
 
